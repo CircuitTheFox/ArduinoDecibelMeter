@@ -15,7 +15,7 @@ void loop() {
     if(v2 > a){
       Serial.println(v2);
       digitalWrite(a, HIGH);
-      delay(10);
+      delay(15);
     }else{
       digitalWrite(a, LOW);
     }
